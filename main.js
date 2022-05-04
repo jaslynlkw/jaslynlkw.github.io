@@ -2,7 +2,7 @@ class DigitalClock {
     constructor(element) {
         this.element = element;
     }
-//yey
+
     //checks the time every half a second and updates the time
     start() {
         setInterval(() => {
